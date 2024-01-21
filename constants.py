@@ -1,0 +1,21 @@
+import pygame
+
+BLACK = pygame.Color(30, 30, 30)
+WHITE = pygame.Color(255, 255, 255)
+GREEN = pygame.Color(100, 255, 100)
+YELLOW = pygame.Color(255, 255, 50)
+BLUE = (70, 70, 120)
+GRAY = pygame.Color(128, 128, 128)
+RED = (255, 0, 0)
+PLAYER_COLORS = [(50, 255, 50), (255, 0, 50), (255, 100, 0), (0, 120, 255)]
+PINK = (255, 192, 203)
+WIDTH = 1800
+HEIGHT = 900
+FORMS = [[240, 60], [60, 240], [180, 180], [360, 60], [60, 360]]
+SPACES = [840, 900, 960, 1020, 1080]
+THICK = 60
+VELOCITY = 3
+ACCELERATION = 0.001
+FREQUENCY_OF_PORTALS = 15
+FREQUENCY_OF_COINS = 4
+FPS = 60
